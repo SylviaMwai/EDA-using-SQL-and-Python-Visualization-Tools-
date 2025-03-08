@@ -1,7 +1,7 @@
 # Analyzing a real world data-set with SQL and Python
 
 ## Objectives
-###After completing this lab you will be able to:
+### After completing this lab you will be able to:
 
 Understand a dataset of selected socioeconomic indicators in Chicago
 Learn how to store data in an SQLite database.
@@ -14,18 +14,21 @@ Scores on the hardship index can range from 1 to 100, with a higher index number
 
 A detailed description of the dataset can be found on the city of Chicago's website, but to summarize, the dataset has the following variables:
 
-*   **Community Area Number** (ca): Used to uniquely identify each row of the dataset
+*   **Community Area Number** (`ca`): Used to uniquely identify each row of the dataset
 
-Community Area Name (community_area_name): The name of the region in the city of Chicago
+*   **Community Area Name** (`community_area_name`): The name of the region in the city of Chicago
 
-Percent of Housing Crowded (percent_of_housing_crowded): Percent of occupied housing units with more than one person per room
+*   **Percent of Housing Crowded** (`percent_of_housing_crowded`): Percent of occupied housing units with more than one person per room
 
-Percent Households Below Poverty (percent_households_below_poverty): Percent of households living below the federal poverty line
+*   **Percent Households Below Poverty** (`percent_households_below_poverty`): Percent of households living below the federal poverty line
 
-Percent Aged 16+ Unemployed (percent_aged_16_unemployed): Percent of persons over the age of 16 years that are unemployed
+*   **Percent Aged 16+ Unemployed** (`percent_aged_16_unemployed`): Percent of persons over the age of 16 years that are unemployed
 
-Percent Aged 25+ without High School Diploma (percent_aged_25_without_high_school_diploma): Percent of persons over the age of 25 years without a high school education
+*   **Percent Aged 25+ without High School Diploma** (`percent_aged_25_without_high_school_diploma`): Percent of persons over the age of 25 years without a high school education
 
-Percent Aged Under 18 or Over 64:Percent of population under 18 or over 64 years of age (percent_aged_under_18_or_over_64): (ie. dependents)
+*   **Percent Aged Under** 18 or Over 64:Percent of population under 18 or over 64 years of age (`percent_aged_under_18_or_over_64`): (ie. dependents)
+
+*   **Per Capita Income** (`per_capita_income_`): Community Area per capita income is estimated as the sum of tract-level aggragate inc
+In this Lab, we'll take a look at the variables in the socioeconomic indicators dataset and do some basic analysis with Python.
 
 Per Capita Income (per_capita_income_): Community Area per capita income is estimated as the sum of tract-level aggragate inc In this Lab, we'll take a look at the variables in the socioeconomic indicators dataset and do some basic analysis with Python.
